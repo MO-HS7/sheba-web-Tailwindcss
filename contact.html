@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Sheba Youth Foundation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="index.html"><img src="photos/sheba-logo.png" alt="Sheba Youth Foundation" class="logo"></a>
+                    <span class="org-name">Sheba Youth Foundation</span>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="index .html" class="nav-link">Home</a></li>
+
+                    <li class="nav-item"><a href="about.html" class="nav-link">about</a></li>
+                    <li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="publications.html" class="nav-link">Publications</a></li>
+                    <li class="nav-item"><a href="#news" class="nav-link">News</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <a href="#" class="language-toggle">العربية</a>
+                    <button class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">Contact Us</h1>
+            <p class="hero-subtitle">Ready to make a difference? Connect with us to learn more about our programs or explore partnership opportunities.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <span class="section-badge">Contact Us</span>
+                    <h2>Get in Touch</h2>
+                    <p>Ready to make a difference? Connect with us to learn more about our programs or explore partnership opportunities.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt contact-icon"></i>
+                            <div class="contact-text">
+                                <h4>Office Location</h4>
+                                <p>Taiz Office – Jamal Street, Al-Ekhwah Round</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone contact-icon"></i>
+                            <div class="contact-text">
+                                <h4>Phone Numbers</h4>
+                                <p>+967 04 252733<br>+967 770450222</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope contact-icon"></i>
+                            <div class="contact-text">
+                                <h4>Email Address</h4>
+                                <p>info@shebayouth.org</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/Shebayouthf" class="social-link">
+                            <i class="fab fa-facebook-f social-icon"></i>
+                            <span>Facebook</span>
+                        </a>
+                        <a href="https://twitter.com/Shebayouthf" class="social-link">
+                            <i class="fab fa-twitter social-icon"></i>
+                            <span>Twitter</span>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCJ7c-ELM4jnFmeIrR_f8-6A" class="social-link">
+                            <i class="fab fa-youtube social-icon"></i>
+                            <span>YouTube</span>
+                        </a>
+                        <a href="https://www.linkedin.com/company/shebayouthf/" class="social-link">
+                            <i class="fab fa-linkedin-in social-icon"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://www.instagram.com/shebayouthf/" class="social-link">
+                            <i class="fab fa-instagram social-icon"></i>
+                            <span>Instagram</span>
+                        </a>
+                    </div>
+
+                    <!-- Map Container -->
+                    <div class="map-container">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3845.8234567890123!2d44.0183784!3d13.5792718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x161c69536972b10d%3A0x52e9fd97e591236c!2z2YXYpNiz2LPYqSDYtNio2KfYqCDYs9io2KMg2YTZhNiq2YbZhdmK2Kkg4oCt!5e0!3m2!1sen!2s!4v1642345678901!5m2!1sen!2s"
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>Send us a Message</h3>
+                    <form id="contact-form" class="form">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-main">
+                    <div class="footer-logo">
+                        <img src="photos/sheba-logo.png" alt="Sheba Youth Foundation">
+                        <p>Empowering youth for a better tomorrow through education, training, and community engagement.</p>
+                    </div>
+                    <div class="footer-links">
+                        <div class="footer-column">
+                            <h4>Quick Links</h4>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About Sheba</a></li>
+                                <li><a href="projects.html">Our Projects</a></li>
+                                <li><a href="publications.html">Publications</a></li>
+                                <li><a href="contact.html" class="active">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-column">
+                            <h4>Programs</h4>
+                            <ul>
+                                <li><a href="projects.html">Youth Empowerment</a></li>
+                                <li><a href="projects.html">Community Development</a></li>
+                                <li><a href="projects.html">Peace Building</a></li>
+                                <li><a href="projects.html">Digital Advocacy</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-column">
+                            <h4>Resources</h4>
+                            <ul>
+                                <li><a href="publications.html">Success Stories</a></li>
+                                <li><a href="publications.html">News & Updates</a></li>
+                                <li><a href="publications.html">Research Papers</a></li>
+                                <li><a href="publications.html">Annual Reports</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 Sheba Youth Foundation. All rights reserved.</p>
+                    <div class="footer-social">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+

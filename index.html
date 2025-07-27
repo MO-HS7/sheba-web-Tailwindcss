@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sheba Youth Foundation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="css/output.css">
+</head>
+<body class="font-sans bg-white text-gray-700 dark:bg-gray-900 dark:text-gray-300 antialiased">
+
+    <!-- Header -->
+    <header class="bg-white/95 dark:bg-gray-800/95 backdrop-blur-lg fixed top-0 left-0 right-0 z-50 shadow-md dark:border-b dark:border-gray-700">
+        <nav class="container mx-auto px-6 py-3">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center gap-3">
+                    <a href="index.html"><img src="photos/sheba-logo.png" alt="Sheba Youth Foundation Logo" class="h-12"></a>
+                    <span class="text-lg font-semibold text-gray-800 dark:text-white">Sheba Youth Foundation</span>
+                </div>
+                <ul class="hidden md:flex items-center space-x-8">
+                    <li><a href="index.html" class="nav-link active relative text-gray-800 dark:text-white font-semibold">Home</a></li>
+                    <li><a href="about.html" class="nav-link relative text-gray-600 dark:text-gray-300 hover:text-gray-800 dark:hover:text-white transition-colors">About Sheba</a></li>
+                    <li><a href="projects.html" class="nav-link relative text-gray-600 dark:text-gray-300 hover:text-gray-800 dark:hover:text-white transition-colors">Projects</a></li>
+                    <li><a href="publications.html" class="nav-link relative text-gray-600 dark:text-gray-300 hover:text-gray-800 dark:hover:text-white transition-colors">Publications</a></li>
+                    <li><a href="contact.html" class="nav-link relative text-gray-600 dark:text-gray-300 hover:text-gray-800 dark:hover:text-white transition-colors">Contact Us</a></li>
+                </ul>
+                <div class="flex items-center gap-4">
+                     <a href="#" class="hidden sm:inline-block text-cyan-600 dark:text-cyan-400 border border-cyan-500 dark:border-cyan-400 px-4 py-1.5 rounded-full text-sm font-semibold hover:bg-cyan-500 hover:text-white dark:hover:bg-cyan-400 dark:hover:text-gray-900 transition-colors duration-300">العربية</a>
+                     <button id="theme-toggle" type="button" class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none rounded-lg text-lg p-2.5">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <button id="hamburger-button" class="hamburger md:hidden flex flex-col justify-center items-center">
+                        <span class="bar block w-6 h-0.5 my-1 bg-gray-800 dark:bg-white transition-all duration-300"></span>
+                        <span class="bar block w-6 h-0.5 my-1 bg-gray-800 dark:bg-white transition-all duration-300"></span>
+                        <span class="bar block w-6 h-0.5 my-1 bg-gray-800 dark:bg-white transition-all duration-300"></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white dark:bg-gray-800 border-t dark:border-gray-700">
+            <a href="index.html" class="block py-3 px-6 text-sm text-cyan-600 dark:text-cyan-400 font-semibold bg-gray-50 dark:bg-gray-700/50">Home</a>
+            <a href="about.html" class="block py-3 px-6 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-700/50">About Sheba</a>
+            <a href="projects.html" class="block py-3 px-6 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-700/50">Projects</a>
+            <a href="publications.html" class="block py-3 px-6 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-700/50">Publications</a>
+            <a href="contact.html" class="block py-3 px-6 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-700/50">Contact Us</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="relative h-screen flex items-center justify-center text-center text-white">
+            <div class="absolute inset-0 bg-gradient-to-r from-cyan-500 via-teal-500 to-orange-500 -z-20"></div>
+            <div class="absolute inset-0 bg-black/40 -z-10"></div>
+            <div class="px-4">
+                <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4">Redesigning a Real Non-Profit Organization's Landing Page</h1>
+                <p class="text-lg md:text-xl mb-8 max-w-3xl mx-auto">A simplified and modern approach to enhance user experience and visual appeal.</p>
+                <a href="projects.html" class="inline-block bg-orange-500 text-white font-bold py-3 px-8 rounded-full hover:bg-transparent hover:text-white border-2 border-orange-500 transition-all duration-300 transform hover:scale-105">Discover Our Projects</a>
+            </div>
+            <div class="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce-slow">
+                <div class="w-5 h-5 border-r-2 border-b-2 border-white transform rotate-45"></div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="py-24 bg-gray-50 dark:bg-gray-900">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <span class="inline-block bg-gradient-to-r from-cyan-500 to-teal-500 text-white text-sm font-semibold px-5 py-2 rounded-full">Our Projects</span>
+                    <h2 class="text-3xl md:text-4xl font-bold mt-4 text-gray-900 dark:text-white">Transforming Communities</h2>
+                    <p class="text-gray-600 dark:text-gray-400 mt-4 max-w-2xl mx-auto">We're incredibly proud of the diverse range of programs and initiatives that create real impact across Yemen.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="md:col-span-2 bg-white dark:bg-gray-800 rounded-2xl shadow-lg overflow-hidden flex flex-col lg:flex-row transform transition-transform duration-300 hover:-translate-y-2">
+                        <img src="photos/SANAD.jpg" alt="SANAD 4 Project" class="w-full lg:w-1/2 h-64 lg:h-auto object-cover">
+                        <div class="p-8 flex flex-col justify-center">
+                            <h3 class="text-2xl font-bold text-gray-900 dark:text-white">SANAD 4 Project</h3>
+                            <p class="text-gray-600 dark:text-gray-400 mt-2 mb-4">Enhancing community stability through the formation of community councils that support local authorities in resolving conflict issues.</p>
+                            <div class="flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400 mb-6">
+                                <span class="bg-gray-100 dark:bg-gray-700 px-3 py-1 rounded-full">Taiz Governorate</span>
+                                <span class="bg-gray-100 dark:bg-gray-700 px-3 py-1 rounded-full">100+ Beneficiaries</span>
+                            </div>
+                            <a href="projects.html" class="self-start text-orange-500 dark:text-orange-400 font-semibold border-2 border-orange-500 dark:border-orange-400 px-6 py-2 rounded-full hover:bg-orange-500 hover:text-white dark:hover:bg-orange-400 dark:hover:text-gray-900 transition-colors">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-lg overflow-hidden transform transition-transform duration-300 hover:-translate-y-2">
+                        <img src="photos/Youth.jpg" alt="Youth Empowerment Program" class="w-full h-56 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 dark:text-white">Youth Empowerment Program</h3>
+                            <p class="text-gray-600 dark:text-gray-400 mt-2 mb-4">Empowering and Building the Capacities of Youth Components.</p>
+                             <div class="flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400 mb-6">
+                                <span class="bg-gray-100 dark:bg-gray-700 px-3 py-1 rounded-full">9 Governorates</span>
+                            </div>
+                            <a href="projects.html" class="text-orange-500 dark:text-orange-400 font-semibold">Learn More &rarr;</a>
+                        </div>
+                    </div>
+                    <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-lg overflow-hidden transform transition-transform duration-300 hover:-translate-y-2">
+                        <img src="photos/Waad.png" alt="Waad Network Project" class="w-full h-56 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 dark:text-white">Waad Network Capacity Building</h3>
+                            <p class="text-gray-600 dark:text-gray-400 mt-2 mb-4">Aiming to create a supportive environment for youth.</p>
+                             <div class="flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400 mb-6">
+                                <span class="bg-gray-100 dark:bg-gray-700 px-3 py-1 rounded-full">Taiz</span>
+                            </div>
+                            <a href="projects.html" class="text-orange-500 dark:text-orange-400 font-semibold">Learn More &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Publications Section -->
+        <section class="py-24 bg-white dark:bg-black">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <span class="inline-block bg-gradient-to-r from-cyan-500 to-teal-500 text-white text-sm font-semibold px-5 py-2 rounded-full">Our Publications</span>
+                    <h2 class="text-3xl md:text-4xl font-bold mt-4 text-gray-900 dark:text-white">Research & Insights</h2>
+                    <p class="text-gray-600 dark:text-gray-400 mt-4 max-w-2xl mx-auto">Contributing to sustainable development through research, studies, and policy recommendations.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-gray-50 dark:bg-gray-800 rounded-2xl shadow-lg p-8 text-center transform transition-transform duration-300 hover:-translate-y-2">
+                        <img src="photos/The Missing Track.jpg" alt="The Missing Track" class="h-56 w-full object-contain mx-auto mb-6">
+                        <h3 class="text-xl font-bold text-gray-900 dark:text-white">The Missing Track</h3>
+                        <p class="text-gray-600 dark:text-gray-400 my-2">Yemeni Youth Engagement in the First Track of Peacebuilding Process</p>
+                        <div class="flex justify-center gap-4 text-sm text-gray-500 dark:text-gray-400 my-4">
+                            <span class="bg-white dark:bg-gray-700 px-3 py-1 rounded-full">Policy Brief</span>
+                            <span class="bg-white dark:bg-gray-700 px-3 py-1 rounded-full">2023</span>
+                        </div>
+                        <a href="publications.html" class="inline-block bg-cyan-500 text-white font-semibold px-8 py-2.5 rounded-full hover:bg-cyan-600 transition-colors">Download PDF</a>
+                    </div>
+                    <div class="bg-gray-50 dark:bg-gray-800 rounded-2xl shadow-lg p-8 text-center transform transition-transform duration-300 hover:-translate-y-2">
+                        <img src="photos/The role .jpg" alt="Policy Brief" class="h-56 w-full object-contain mx-auto mb-6">
+                        <h3 class="text-xl font-bold text-gray-900 dark:text-white">Policy Brief</h3>
+                        <p class="text-gray-600 dark:text-gray-400 my-2">The Roles of Youth and Women-led Civil Society in the Three Peace Tracks</p>
+                        <div class="flex justify-center gap-4 text-sm text-gray-500 dark:text-gray-400 my-4">
+                            <span class="bg-white dark:bg-gray-700 px-3 py-1 rounded-full">Policy Brief</span>
+                            <span class="bg-white dark:bg-gray-700 px-3 py-1 rounded-full">2023</span>
+                        </div>
+                        <a href="publications.html" class="inline-block bg-cyan-500 text-white font-semibold px-8 py-2.5 rounded-full hover:bg-cyan-600 transition-colors">Download PDF</a>
+                    </div>
+                    <div class="bg-gray-50 dark:bg-gray-800 rounded-2xl shadow-lg p-8 text-center transform transition-transform duration-300 hover:-translate-y-2">
+                        <img src="photos/manual.jpg" alt="Peace Journalism Manual" class="h-56 w-full object-contain mx-auto mb-6">
+                        <h3 class="text-xl font-bold text-gray-900 dark:text-white">Peace Journalism Manual</h3>
+                        <p class="text-gray-600 dark:text-gray-400 my-2">A comprehensive guide to peace journalism practices and methodologies</p>
+                        <div class="flex justify-center gap-4 text-sm text-gray-500 dark:text-gray-400 my-4">
+                            <span class="bg-white dark:bg-gray-700 px-3 py-1 rounded-full">Manual</span>
+                            <span class="bg-white dark:bg-gray-700 px-3 py-1 rounded-full">2022</span>
+                        </div>
+                        <a href="publications.html" class="inline-block bg-cyan-500 text-white font-semibold px-8 py-2.5 rounded-full hover:bg-cyan-600 transition-colors">Download PDF</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 dark:bg-black text-gray-400">
+        <div class="container mx-auto px-6 pt-16 pb-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="md:col-span-2">
+                    <img src="photos/sheba-logo.png" alt="Sheba Youth Foundation" class="h-20 mb-4">
+                </div>
+                <div>
+                    <h4 class="font-bold text-white mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="hover:text-cyan-400 transition-colors">Home</a></li>
+                        <li><a href="about.html" class="hover:text-cyan-400 transition-colors">About Sheba</a></li>
+                        <li><a href="projects.html" class="hover:text-cyan-400 transition-colors">Our Projects</a></li>
+                        <li><a href="publications.html" class="hover:text-cyan-400 transition-colors">Publications</a></li>
+                        <li><a href="contact.html" class="hover:text-cyan-400 transition-colors">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold text-white mb-4">Programs</h4>
+                    <ul class="space-y-2">
+                        <li><a href="projects.html" class="hover:text-cyan-400 transition-colors">Youth Empowerment</a></li>
+                        <li><a href="projects.html" class="hover:text-cyan-400 transition-colors">Community Development</a></li>
+                        <li><a href="projects.html" class="hover:text-cyan-400 transition-colors">Peace Building</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-6 flex flex-col sm:flex-row justify-between items-center">
+                <p class="text-sm">&copy; 2025 Sheba Youth Foundation. All rights reserved.</p>
+                <div class="flex space-x-4 mt-4 sm:mt-0">
+                    <a href="#" class="hover:text-white">Privacy Policy</a>
+                    <a href="#" class="hover:text-white">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+        <!-- IMPORTANT: Script to prevent FOUC (Flash of Unstyled Content) for dark mode -->
+    <script>
+        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+          document.documentElement.classList.add('dark');
+        } else {
+          document.documentElement.classList.remove('dark');
+        }
+    </script>
+
+</body>
+</html>
